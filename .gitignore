@@ -1,3 +1,11 @@
+# SightIn .gitignore for examples only fork
+
+# Keep only python/examples - ignore everything else at root level
+/*
+!/python/
+/python/*
+!/python/examples/
+
 # Custom files
 LocalConfig.cmake
 src/colmap/util/version.cc
